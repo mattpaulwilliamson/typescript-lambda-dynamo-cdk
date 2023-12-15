@@ -1,8 +1,13 @@
-# Welcome to your CDK TypeScript project
+# Welcome
 
-This is a blank project for CDK development with TypeScript.
+This is a project that listens to a CustomerCreated event and then stores an item in a dynamo table
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Set your AWS environment variables and using cdk deploy to deploy the stack.
+
+Send an event via the Event Bus:
+<img width="833" alt="Screenshot 2023-12-15 at 22 15 06" src="https://github.com/mattpaulwilliamson/typescript-lambda-dynamo-cdk/assets/1433898/3433df5a-12ef-4922-8640-1478d2e95682">
+
+The dynamo table will have the customerEmail inserted.
 
 ## Useful commands
 
