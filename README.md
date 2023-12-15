@@ -1,6 +1,6 @@
 # Welcome
 
-This is a project that listens to a CustomerCreated event and then stores an item in a dynamo table
+This is a project that listens to a CustomerCreated event and then stores an item in a dynamo table.
 
 Set your AWS environment variables and using cdk deploy to deploy the stack.
 
