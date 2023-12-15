@@ -1,0 +1,13 @@
+{
+    "version": "0",
+    "id": "390475c2-1391-092b-7f6f-8c845748cc1d",
+    "detail-type": "CustomerCreated",
+    "source": "eventsomething",
+    "account": "764738370862",
+    "time": "2022-08-09T10:43:12Z",
+    "region": "eu-west-1",
+    "resources": [],
+    "detail": {
+        "customerEmail": "test@test.com"
+    }
+}

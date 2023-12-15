@@ -4,7 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 import { TypescriptLambdaCdkStack } from '../lib/typescript-lambda-cdk-stack';
 
 const app = new cdk.App();
-new TypescriptLambdaCdkStack(app, 'TypescriptLambdaCdkStack', {
+new TypescriptLambdaCdkStack(app, 'Matt-Test', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
